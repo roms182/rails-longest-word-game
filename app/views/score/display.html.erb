@@ -1,0 +1,13 @@
+<h1>Score#display</h1>
+
+<p>******** Now your result ********</p>
+
+<!-- result = run_game(attempt, grid, start_time, end_time) -->
+
+<p> Your word: <%= params[:attempt] %></p>
+<p> Time Taken to answer: <% @result[:time] %></p>
+<p> Translation: <%= @result[:translation] %></p>
+<p> Your score: <%= @result[:score] %></p>
+<p> Message: <%= @result[:message] %></p>
+
+<p> *****************************************************</p>
